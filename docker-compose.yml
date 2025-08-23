@@ -43,7 +43,8 @@ services:
       - two-tier-nt
 
     depends_on:
-      - mysql
+      mysql:
+        condition: service_healthy
 
     healthcheck:
       test: ["CMD-SHELL", "curl -f http://localhost:5000/health || exit 1"]
