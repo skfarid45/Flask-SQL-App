@@ -1,7 +1,7 @@
 import os
 from flask import Flask, render_template, request, jsonify
 import pymysql
-pymysql.install_as_MySQLdb()      # <-- Required for Windows
+pymysql.install_as_MySQLdb() 
 from flask_mysqldb import MySQL
 
 app = Flask(__name__)
