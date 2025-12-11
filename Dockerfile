@@ -6,16 +6,13 @@ ENV PYTHONUNBUFFERED=1
 
 RUN apt-get update && apt-get install -y \
     build-essential \
-    gcc \
     default-libmysqlclient-dev \
     pkg-config \
     curl \
     && rm -rf /var/lib/apt/lists/*
 
-# copy requirements file (you provided "requirement.txt")
-COPY requirement.txt /app/requirement.txt
-
-RUN pip install --no-cache-dir -r /app/requirement.txt
+COPY requirements.txt /app/requirement.txt
+RUN pip install --no-cache-dir -r requirement.txt
 
 COPY . /app
 
