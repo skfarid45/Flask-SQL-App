@@ -13,7 +13,7 @@
     * [Dockerfile](#dockerfile)
     * [docker-compose.yml](#docker-composeyml)
     * [Jenkinsfile](#jenkinsfile)
-6. [Step 5: Jenkins Pipeline Creation and Execution](#7-step-5-jenkins-pipeline-creation-and-execution
+6. [Step 5: Jenkins Pipeline Creation and Execution](#7-step-5-jenkins-pipeline-creation-and-execution)
    
 ---
 
