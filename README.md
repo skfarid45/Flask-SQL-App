@@ -1,6 +1,6 @@
 # DevOps Project Report: Automated CI/CD Pipeline for a 2-Tier Flask Application on AWS
 
-**Date:** August 23, 2025
+**Date:** December 12, 2025
 
 ---
 
